@@ -1,0 +1,33 @@
+{
+  "name": "patient-report-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrewStock/patient-report-API.git"
+  },
+  "author": "@DrewStock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DrewStock/patient-report-API/issues"
+  },
+  "homepage": "https://github.com/DrewStock/patient-report-API#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.10"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
+    "mocha": "^5.0.4",
+    "nodemon": "^1.17.2"
+  }
+}
